@@ -1,0 +1,181 @@
+/* Estilo para el contenedor de formulario */
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilo para los campos de entrada */
+  .form-control {
+    border-radius: 10px; /* Borde redondeado */
+    border: 1px solid #ced4da; /* Borde */
+  }
+  
+  /* Estilo para las etiquetas de los campos de entrada */
+  .form-label {
+    color: #333; /* Color del texto */
+  }
+  
+  /* Estilo para el botón de enviar */
+  .btn-primary {
+    background-color: #007bff; /* Color de fondo */
+    border-color: #007bff; /* Color del borde */
+    color: #fff; /* Color del texto */
+    border-radius: 10px; /* Borde redondeado */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+    border-color: #0056b3; /* Cambio de color del borde al pasar el ratón */
+  }
+  
+  /* Estilo para los enlaces dentro del texto del formulario */
+  a {
+    color: #007bff; /* Color del enlace */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+  }
+  
+  /* Estilo para los botones de registro */
+  .btn-secondary {
+    margin: 5px; /* Margen entre botones */
+  }
+  
+  /* Estilo para los íconos de los botones de registro */
+  .btn-floating i {
+    font-size: 18px; /* Tamaño del ícono */
+  }
+  
+  /* Estilos para el carousel */
+      #carouselExampleInterval {
+        max-width: auto; /* Ancho máximo del carousel */
+        margin: 0 auto; /* Centra el carousel horizontalmente */
+      }
+  
+      .carousel-inner .carousel-item img {
+        max-height: 400px; /* Altura máxima de las imágenes del carousel */
+        object-fit: cover; /* Ajusta el tamaño de las imágenes sin deformarlas */
+      }
+    .fancy-heading small.text-muted {
+      color: #6c757d; /* Color de texto secundario */
+    }
+     /* Default height for small devices */
+     #intro-example {
+      height: 400px;
+    }
+  
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;
+      }
+    }
+  
+    /* Estilo para el título de la tarjeta */
+  .card-title {
+    color: #333; /* Color del texto */
+    font-size: 1.5rem; /* Tamaño de fuente */
+    margin-bottom: 1rem; /* Espacio inferior */
+  }
+  
+  /* Estilo para el texto de la tarjeta */
+  .card-text {
+    color: #666; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+  }
+  .card-body {
+    max-width: 100%; /* Limitar el ancho máximo */
+    padding: 1rem; 
+  }
+  
+  
+  /* Estilo para el botón */
+  .btn-primary {
+    background-color: #007bff; /* Color de fondo */
+    border-color: #007bff; /* Color del borde */
+    color: #fff; /* Color del texto */
+    font-size: 1rem; /* Tamaño de fuente */
+    padding: 0.5rem 1rem; /* Relleno */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón */
+    border-color: #0056b3; /* Cambio de color del borde al pasar el ratón */
+  }
+  /* Default height for small devices */
+  #intro-example {
+    height: 400px;
+  }
+
+/* Estilos para tabletas*/
+
+@media (min-width: 600px) {
+    .header-content {
+        flex-direction: row; /* Alineación en fila */
+        justify-content: space-between; /* Distribución espacio entre elementos */
+        align-items: center; /* Centrado vertical */
+    }
+
+    nav ul { /*Organizar*/
+        flex-direction: row; /* Alineación en fila */
+        justify-content: flex-end; /* Alineación derecha */
+        align-items: center; /* Centrado vertical */
+    }
+
+    nav ul li {
+        margin: 0 0.5em; /* Márgenes horizontales */
+    }
+    .servicio {
+        flex-direction: column; /* Alineación en columna */
+        align-items: center; /* Centrado horizontal */
+        text-align: center; /* Alineación de texto centrada */
+    }
+}
+
+/* Estilos para escritorio */
+@media (min-width: 1024px) {
+    header, footer {
+        text-align: left; /* Alineación izquierda */
+        padding: 2em; /* Espaciado interno */
+    }
+
+    nav ul {
+        justify-content: flex-start; /* Inicio de la fila */
+    }
+
+    nav ul li {
+        margin: 0 1em; /* Márgenes horizontales */
+    }
+    
+    main {
+        display: flex; /* Modelo de caja flexible */
+        justify-content: center; /* Centrado horizontal */
+        align-items: flex-start; /* Alineación vertical arriba */
+        flex-wrap: wrap; /* Envolver contenido */
+    }
+
+    main section {
+        flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+        margin: 1em; /* Márgenes */
+    }
+
+    .servicio {
+        flex-direction: column; /* Columna principal */
+        text-align: center; /* Alineación centrada */
+    }
+
+    .servicio img {
+        margin: 0 auto 1em; /* Margen automático abajo */
+    }
+
+    .testimonio {
+        flex-direction: row; /* Fila principal */
+        align-items: flex-start; /* Alineación vertical arriba */
+    }
+
+    .testimonio img {
+        margin-right: 1em; /* Margen derecho */
+    }
+}
