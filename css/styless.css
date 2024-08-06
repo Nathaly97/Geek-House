@@ -126,7 +126,7 @@ main .sobre-nosotros{
 .productos{
     
         width: 100%;
-        height: 300px;
+        height: 430px;
         background: #e96443;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.315), hsla(317, 45%, 52%, 0.377)), url(../img/portada.PNG);
@@ -175,12 +175,12 @@ main .sobre-nosotros{
 .imagen-prod > img{
     align-items: center;
     align-content: center;
-    width: 180px;
+    width: 270px;
     height: auto;
     object-fit: cover;
     display: block;
     margin: auto;
-    border-radius: 55%
+    border-radius: 55%;
     
 
 }
@@ -197,12 +197,12 @@ main .sobre-nosotros{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 55%;
+    border-radius:55%;
 }
 
 .hover-galeria img{
     width: 100px;
-    border-radius: 55%;
+    border-radius: 60%;
 }
 
 .hover-galeria p{
@@ -267,7 +267,7 @@ position: relative;
 
 .caja-trasera button{
     padding: 10px 40px; /*un ancho de 10 px y un espaciado de 40px*/
-    border: 20px solid white;
+    border: 0.5 px solid white;
     background: transparent; /*trasparencia del boton*/
     font-size: 14px;
     font-weight: 500; /*groro de letras*/
