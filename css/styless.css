@@ -126,7 +126,7 @@ main .sobre-nosotros{
 .productos{
     
         width: 100%;
-        height: 430px;
+        height: 530px;
         background: #e96443;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.315), hsla(317, 45%, 52%, 0.377)), url(../img/portada.PNG);
@@ -216,74 +216,80 @@ main .sobre-nosotros{
 
 
 
-
 /*SECCION DE REGISTRO E INICIO DE SESION*/
 
-.main2{ /*GENERAL*/
-    background-image: url(../img/portada2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-    width: 100%;
-    padding: 10px; /*margen*/
+
+.contenedor_general{
+    width: 50%;
     margin: auto;
-    margin-top: 100px;
+    max-width: 850px;
+    margin-top: 0px;
+    padding: 100PX 0PX;
+    background-image: url(../img/portada2.jpg);
+    background: #e96443;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.178), hsla(317, 45%, 52%, 0.185)), url(../img/portada.PNG);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.021), hsla(317, 45%, 52%, 0.233)), url(../img/portada.PNG);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    
 
 }
 
-.contenedor-general{
-width: 100%;
-margin: auto;
-max-width: 800px;
-position: relative;
-}
-
-.caja-trasera{
+.caja__trasera{
     width: 100%;
     padding: 10px 20px; /*10 px de arriba y abajo y 20px para la derecha y la izquierda*/
     display: flex; /*Para que los formulario se coloque uno al lado del otro*/
     justify-content: center;
     backdrop-filter: blur(10px); /*Desenfoca el fondo del contendedor*/
-    background-color: rgba(182, 7, 173, 0.5);
+    background-color: rgba(182, 7, 173, 0.226);
+
 
 }
 
-.caja-trasera div{ /*al colocar el "div" estoy seleccionando las dos cajas de registro e inicio de sesión*/
-    margin: 100px 40px; /*Margen de alto (100) y de ancho (40px)*/
+.caja__trasera div{ /*al colocar el "div" estoy seleccionando las dos cajas de registro e inicio de sesión*/
+    margin: 100px 20px; /*Margen de alto (100) y de ancho (40px)*/
     color: white; /*color texto*/
     transition: all 500ms; /*Trancision del bloque*/
+    text-align: center;
+    margin-right: 30px;
 }
 
-.caja-trasera div p,
-.caja-trasera div button{
-    margin-top: 10px; /*espaciado*/
+.caja__trasera div p,
+.caja__trasera div button{
+    margin-top: 15px; /*espaciado*/
 }
 
-.caja-trasera div h3{
+.caja__trasera div h3{
     font-weight: 400;
     font-size: 26px;
 }
 
-.caja-trasera button{
+.caja__trasera button{
     padding: 10px 40px; /*un ancho de 10 px y un espaciado de 40px*/
-    border: 0.5 px solid white;
+    border: 2px solid rgba(255, 253, 255, 0.863);
     background: transparent; /*trasparencia del boton*/
     font-size: 14px;
     font-weight: 500; /*groro de letras*/
     cursor: pointer; 
     color: white;
     transition: all 300ms;
+    border-radius: 10px;
+    
 }
 
-.caja-trasera button:hover{ /*Cambio de color cuando el cursor se pare sobre el botton*/
+.caja__trasera button:hover{ /*Cambio de color cuando el cursor se pare sobre el botton*/
     background-color: white;
     color: #642a73;
+    
 }
 
 /*Inicio de ajuste formulario*/
 
-.contenedor-login-registro{
+.contenedor__login-registro{
 
      display: flex;/*separe y posicione los formularios de manera vertica*/
     align-items: center;
@@ -292,81 +298,131 @@ position: relative;
     position: relative;
     top: -185px; /*se coloque encima*/
     left: 10px;
+    color: #ffffff;
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275); /*(agrega el efecto de transición)*/
+  
+   
 }
 
-.contenedor-login-registro form{
+.contenedor__login-registro .formulario__registro{
     width: 100%;
-    padding: 80px 20px;
+    padding: 30px 20px;
     position: absolute;/*para que se pueda mover*/
     background: white;
-    border-radius: 20px;
-}
-.contenedor-login-registro form h2{
-font-size: 30px;
-text-align: center;
-margin-bottom: 20px; /*espacios entre el texto y el boton*/
-color: #4d0686;
+    border-radius: 10px;
+    line-height: 0px;
+    text-align: center;
+    
 }
 
-.contenedor-login-registro form input{ /*espacio de registro*/
+
+
+.contenedor__login-registro .formulario__login{
     width: 100%;
-    margin-top: 20px; /*para mantener un espaciado entre erros*/
-    padding: 10px;
-    border: none;
-    background-color: rgba(204, 200, 216, 0.37);/*color de los espacios donde digitan*/
-    font-size: 16px;
-    outline: none; /*quitar borde negro*/
+    padding: 105px 40px;
+    position: absolute;/*para que se pueda mover*/
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.contenedor__login-registro form h2{
+font-size: 28px;
+padding: 5px;
+text-align: center;
+margin-bottom: 10px; /*espacios entre el texto y el formulario*/
+color: #4d0686;
+
+
 }
 
-.contenedor-login-registro form button{ /*Boton de registro de datos*/
-    padding: 10px 40px; 
-    margin-top: 40px;
-    border: none;
+.contenedor__login-registro form input{ /*espacio de registro*/
+    width: 100%;
+    margin-top: 10px; /*para mantener un espaciado entre erros*/
+    padding: 5px;
+    border: 12x;
+    border: 1px solid rgba(139, 63, 139, 0.863);
+    background-color: rgba(0, 0, 0, 0);/*color de los espacios donde digitan*/
     font-size: 14px;
+    outline: none; /*quitar borde negro*/
+    text-align: center;
+    border-radius: 10px;
+   
+
+}
+
+.contenedor__login-registro form button{ /*Boton de registro de datos*/
+    padding: 15px 30px; 
+    margin-top: 20px;
+    border: none;
+    font-size: 12px;
     background-color: #642a73;
     color: white;
     cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.contenedor__login-registro button:hover{ /*Cambio de color cuando el cursor se pare sobre el botton*/
+    background-color: #642a7341;
+    color: #642a73;
+    text-align: center;
 
 }
 
-.formulario-login{
+.formulario__login{
     opacity: 1;
     display: block;
 }
 
-.formulario-registro{
+.formulario__registro{
     display: none;
+
+
 }
+
+.titulo2{
+    color: rgb(120, 8, 143);
+    text-align: center;
+    padding: 30px 0;
+    font-size: 50px;
+}
+
+
 
 /*RESPONSIVE DESING*/
 
 @media screen and (max-width:850px){ /*Ajuste para que cuando se disminuya el tamaño de la pagina esto se adapte*/
 
-    main{
+    .main{
         margin-top: 50px
     }
 
-    .caja-trasera{
+    .caja__trasera{
         max-width: 350px;
         height: 300px;
         flex-direction: column;
         margin: auto;
     }
 
-    .caja-trasera div{
+    .caja__trasera div{
         margin: 0px;
         position: absolute;
 
     }
     /*formularios*/
 
-    .contenedor-login-registro{
+    .contenedor__login-registro{
         top: -10px;
         left: -5px;
         margin: auto;
     }
 
-    .contenedor-login-registro form{
+    .contenedor__login-registro .formulario__login{
+        position: relative;
+    }
+    .contenedor__login-registro .formulario__registro{
         position: relative;
     }
 
