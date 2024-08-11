@@ -1,0 +1,63 @@
+[
+    {
+        "id": "consolas-01",
+        "titulo": "Play Station 5",
+        "imagen": "./img/consolas/01.jpg",
+        "categoria": {
+            "nombre": "PS5",
+            "id": "consolas"
+        },
+        "precio": 3000000
+    },
+    {
+        "id": "partespc-01",
+        "titulo": "Mouse Rog Strix Keris",
+        "imagen": "./img/partespc/01.jpg",
+        "categoria": {
+            "nombre": "Mouse Rog Keris",
+            "id": "partespc"
+        },
+        "precio": 350000
+    },
+    {
+        "id": "monitores-01",
+        "titulo": "Monitor Asus Rog XG259CM",
+        "imagen": "./img/monitores/01.jpg",
+        "categoria": {
+            "nombre": "Monitor Asus Rog XG259CM",
+            "id": "monitores"
+        },
+        "precio": 2500000
+    },
+    {
+        "id": "accesorios-01",
+        "titulo": "Tarjeta de expancion Xbox Series X 1TB",
+        "imagen": "./img/accesorios/01.jpg",
+        "categoria": {
+            "nombre": "Tarjeta de expancion Xbox Series X 1TB",
+            "id": "accesorios"
+        },
+        "precio": 830000
+    },
+    {
+        "id": "juegos-01",
+        "titulo": "The Legend of Zelda Breath of the Wild-Nintendo Switch",
+        "imagen": "./img/juegos/01.jpg",
+        "categoria": {
+            "nombre": "The Legend of Zelda Breath of the Wild",
+            "id": "juegos"
+        },
+        "precio": 250000
+    },
+    {
+        "id": "sillas-01",
+        "titulo": "Asus ROG Chariot ",
+        "imagen": "./img/sillas/01.jpg",
+        "categoria": {
+            "nombre": "Asus ROG Chariot ",
+            "id": "sillas"
+        },
+        "precio": 250000
+    }
+
+]
