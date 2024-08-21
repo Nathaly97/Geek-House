@@ -4,60 +4,216 @@
         "titulo": "Play Station 5",
         "imagen": "./img/consolas/01.jpg",
         "categoria": {
-            "nombre": "PS5",
+            "nombre": "CONSOLAS",
             "id": "consolas"
         },
         "precio": 3000000
     },
     {
+        "id": "consolas-01",
+        "titulo": "Xbox Series X",
+        "imagen": "./img/consolas/03.jpg",
+        "categoria": {
+            "nombre":"",
+            "id": "consolas"
+        },
+        "precio": 2600000
+    },
+    {
+        "id": "consolas-01",
+        "titulo": "Nintendo Switch Oled",
+        "imagen": "./img/consolas/02.jpg",
+        "categoria": {
+            "nombre":"Nintendo Switch",
+            "id": "consolas"
+        },
+        "precio": 1300000
+    },
+
+
+
+
+
+
+    {
         "id": "partespc-01",
         "titulo": "Mouse Rog Strix Keris",
         "imagen": "./img/partespc/01.jpg",
         "categoria": {
-            "nombre": "Mouse Rog Keris",
+            "nombre": "PARTES PC",
             "id": "partespc"
         },
         "precio": 350000
     },
     {
+        "id": "partespc-01",
+        "titulo": "Teclado Rog Strix Flare",
+        "imagen": "./img/partespc/02.jpg",
+        "categoria": {
+            "nombre": "PARTES PC",
+            "id": "partespc"
+        },
+        "precio": 600000
+    },
+    {
+        "id": "partespc-01",
+        "titulo": "Headset Rog Strix Delta S ",
+        "imagen": "./img/partespc/03.jpg",
+        "categoria": {
+            "nombre": "PARTES PC",
+            "id": "partespc"
+        },
+        "precio": 1100000
+    },
+
+
+
+
+
+
+
+
+    {
         "id": "monitores-01",
         "titulo": "Monitor Asus Rog XG259CM",
         "imagen": "./img/monitores/01.jpg",
         "categoria": {
-            "nombre": "Monitor Asus Rog XG259CM",
+            "nombre": "MONITORES",
             "id": "monitores"
         },
         "precio": 2500000
     },
     {
+        "id": "monitores-01",
+        "titulo": "Monitor Asus TUF Gaming VG259QM",
+        "imagen": "./img/monitores/02.jpg",
+        "categoria": {
+            "nombre": "MONITORES",
+            "id": "monitores"
+        },
+        "precio": 2200000
+    },
+    {
+        "id": "monitores-01",
+        "titulo": "Monitor Asus Rog XG49VQ",
+        "imagen": "./img/monitores/03.jpg",
+        "categoria": {
+            "nombre": "MONITORES",
+            "id": "monitores"
+        },
+        "precio": 4200000
+    },
+
+
+
+
+
+
+
+    {
         "id": "accesorios-01",
         "titulo": "Tarjeta de expancion Xbox Series X 1TB",
         "imagen": "./img/accesorios/01.jpg",
         "categoria": {
-            "nombre": "Tarjeta de expancion Xbox Series X 1TB",
+            "nombre": "ACCESORIOS",
             "id": "accesorios"
         },
         "precio": 830000
     },
     {
+        "id": "accesorios-01",
+        "titulo": "Aus Rog Throne RGB",
+        "imagen": "./img/accesorios/02.jpg",
+        "categoria": {
+            "nombre": "",
+            "id": "accesorios"
+        },
+        "precio": 500000
+    },
+    {
+        "id": "accesorios-01",
+        "titulo": "Mousepad Asus Rog Balteus RGB",
+        "imagen": "./img/accesorios/03.jpg",
+        "categoria": {
+            "nombre": "",
+            "id": "accesorios"
+        },
+        "precio": 300000
+    },
+
+
+
+
+
+
+
+
+    {
         "id": "juegos-01",
-        "titulo": "The Legend of Zelda Breath of the Wild-Nintendo Switch",
+        "titulo": "The Legend of Zelda Breath of the Wild",
         "imagen": "./img/juegos/01.jpg",
         "categoria": {
-            "nombre": "The Legend of Zelda Breath of the Wild",
+            "nombre": "JUEGOS",
+            "id": "juegos"
+        },
+        "precio": 230000
+    },
+    {
+        "id": "juegos-01",
+        "titulo": "God Of War Ragnarok",
+        "imagen": "./img/juegos/02.jpg",
+        "categoria": {
+            "nombre": "",
             "id": "juegos"
         },
         "precio": 250000
     },
     {
+        "id": "juegos-01",
+        "titulo": "Gears Tactics",
+        "imagen": "./img/juegos/03.jpg",
+        "categoria": {
+            "nombre": "",
+            "id": "juegos"
+        },
+        "precio": 180000
+    },
+
+
+
+
+
+
+
+    {
         "id": "sillas-01",
         "titulo": "Asus ROG Chariot ",
         "imagen": "./img/sillas/01.jpg",
         "categoria": {
-            "nombre": "Asus ROG Chariot ",
+            "nombre": "SILLAS",
             "id": "sillas"
         },
-        "precio": 250000
+        "precio": 2100000
+    },
+    {
+        "id": "sillas-01",
+        "titulo": "Razer Iskur X",
+        "imagen": "./img/sillas/02.jpg",
+        "categoria": {
+            "nombre": "",
+            "id": "sillas"
+        },
+        "precio": 2100000
+    },
+    {
+        "id": "sillas-01",
+        "titulo": "Redragon C502 Capricornus",
+        "imagen": "./img/sillas/03.jpg",
+        "categoria": {
+            "nombre": "",
+            "id": "sillas"
+        },
+        "precio": 2100000
     }
 
 ]

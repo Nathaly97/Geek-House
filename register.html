@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+  <title>Registro</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <main>
+    <div class="form-container">
+      <h1>Crear cuenta</h1>
+      <p>Creá tu cuenta para acceder a nuestros productos.</p>
+      <form id="register-form">
+        <label for="user" class="sr-only">User</label>
+        <input type="text" name="user" id="user" placeholder="Nombres">
+
+        <label for="Apellidos" class="sr-only">Apellidos</label>
+        <input type="text" name="Apellido" id="Apellidos" placeholder="Apellidos">
+
+        <label for="Cedula" class="sr-only">No. de Documento de id</label>
+        <input type="text" name="documento" id="Cedula" placeholder="No. de Cedula">
+
+        <label for="Direccion" class="sr-only">Direccion</label>
+        <input type="text" name="residencia" id="direccion" placeholder="Dirección de residencia">
+
+        <label for="City" class="sr-only">Ciudad de residencia</label>
+        <input type="text" name="City" id="ciudad" placeholder=" Ciudad">
+
+        <label for="cel" class="sr-only">Tel</label>
+        <input type="tel" name="cel" id="tel" placeholder="Telefono de contacto">
+
+        <label for="email" class="sr-only">Correo</label>
+        <input type="email" name="email" id="email" placeholder="Correo Electronico">
+        
+        <label for="password" class="sr-only">Contraseña</label>
+        <input type="password" name="password" id="contraseña" placeholder="Contraseña">
+        
+        <button type="submit">Crear Cuenta</button>
+        <p class="error escondido">Error al registrarse</p>
+        
+      </form>
+      <p>¿Ya estás registrado? - <a href="login.html">Inicia Sesion</a></p>
+      <p>Volver a la pagina - <a href="index.html">Principal</a></p>
+    </div>
+  </main>
+  <script src="js/register.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
